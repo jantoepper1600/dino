@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.45 19.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #592626;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #3a1407;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="baumstumpf">
+      <path class="cls-1" d="m27.85,6.55c-.4,1.51-1.4,7.56-.4,8.57l3,3.03c-9.82,1.45-19.99,1.36-30.45,0l.45-1.01S12.45,3.02,14.45,1"/>
+      <path class="cls-2" d="m21.45,4.15c7.14,5.16,8.65,2.53,3.22-3-7.78-2.74-16.87-.09-3.22,3Z"/>
+    </g>
+  </g>
+</svg>
