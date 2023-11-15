@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186.91 177.85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3f3f3f;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Fels_links" data-name="Fels links">
+      <path class="cls-1" d="m0,7C5.08,4.91,8,0,17,0s9,10,12,11,9.58-5,14.29-5.5,12.71,2.5,15.71,2.5,4-9,13-6,9,14,9,14c0,0,3,9,3,14s5,10,5,10c0,0,11.32,16.19,19.66,18.6s9.34-2.6,25.34,5.4,15,21,19,23,14,0,18,5,2,25.34,0,28.67-11,16.33-11,24.33,6,16,9,19,17.91,13.85,17.91,13.85L0,176.75V7Z"/>
+    </g>
+  </g>
+</svg>
