@@ -29,52 +29,52 @@ export default component$(() => {
       </nav>
       <div class="img">
         <div class="berge">
-          <img class={['fadeIn', 'nine', !initial.value && 'active']} style={{ bottom: '0', left: '50%' }} src="/berge/berg4.svg" width={1250} />
-          <img class={['fadeIn', 'eight', !initial.value && 'active']} style={{ bottom: '12.5rem', left: '-12.5%' }} src="/berge/berg3.svg" width={1250} />
-          <img class={['fadeIn', 'seven', !initial.value && 'active']} style={{ bottom: '7.5rem', left: '-15%' }} src="/berge/berg2.svg" width={1250} />
-          <img class={['fadeIn', 'six', !initial.value && 'active']} style={{ bottom: '12rem', left: '30%' }} src="/berge/berg.svg" width={1250} />
+          <img class={['fadeIn', 'nine', !initial.value && 'active']} style={{ bottom: '0', left: '50%' }} src="/dino/berge/berg4.svg" width={1250} />
+          <img class={['fadeIn', 'eight', !initial.value && 'active']} style={{ bottom: '12.5rem', left: '-12.5%' }} src="/dino/berge/berg3.svg" width={1250} />
+          <img class={['fadeIn', 'seven', !initial.value && 'active']} style={{ bottom: '7.5rem', left: '-15%' }} src="/dino/berge/berg2.svg" width={1250} />
+          <img class={['fadeIn', 'six', !initial.value && 'active']} style={{ bottom: '12rem', left: '30%' }} src="/dino/berge/berg.svg" width={1250} />
         </div>
         <div class="hügel">
-          <img class={['fadeIn', 'five', !initial.value && 'active']} style={{ bottom: '11rem' }} src="/huegel/huegel2.svg" height={250} />
-          <img class={['fadeIn', 'four', !initial.value && 'active']} style={{ bottom: '15rem' }} src="/huegel/huegel.svg" height={200} />
-          <img class={['fadeIn', 'five', state.value == 1 && 'active']} style={{ bottom: '11rem' }} src="/phase2/huegel/huegel2.svg" height={250} />
-          <img class={['fadeIn', 'four', state.value == 1 && 'active']} style={{ bottom: '15rem' }} src="/phase2/huegel/huegel.svg" height={200} />
+          <img class={['fadeIn', 'five', !initial.value && 'active']} style={{ bottom: '11rem' }} src="/dino/huegel/huegel2.svg" height={250} />
+          <img class={['fadeIn', 'four', !initial.value && 'active']} style={{ bottom: '15rem' }} src="/dino/huegel/huegel.svg" height={200} />
+          <img class={['fadeIn', 'five', state.value == 1 && 'active']} style={{ bottom: '11rem' }} src="/dino/phase2/huegel/huegel2.svg" height={250} />
+          <img class={['fadeIn', 'four', state.value == 1 && 'active']} style={{ bottom: '15rem' }} src="/dino/phase2/huegel/huegel.svg" height={200} />
         </div>
         <div class="boden">
-          <img class={['fadeIn', 'three', !initial.value && 'active']} style={{ bottom: '5rem' }} src="/boden/boden3.svg" height={300} />
-          <img class={['fadeIn', 'two', !initial.value && 'active']} style={{ bottom: '3rem' }} src="/boden/boden2.svg" height={275} />
-          <img class={['fadeIn', 'one', !initial.value && 'active']} style={{ bottom: '0' }} src="/boden/boden.svg" height={175} />
-          <img class={['fadeIn', 'three', state.value == 1 && 'active']} style={{ bottom: '5rem' }} src="/phase2/boden/boden3.svg" height={300} />
-          <img class={['fadeIn',  'two', state.value == 1 && 'active']} style={{ bottom: '3rem' }} src="/phase2/boden/boden2.svg" height={275} />
-          <img class={['fadeIn', 'one', state.value == 1 && 'active']} style={{ bottom: '0' }} src="/phase2/boden/boden.svg" height={175} />
+          <img class={['fadeIn', 'three', !initial.value && 'active']} style={{ bottom: '5rem' }} src="/dino/boden/boden3.svg" height={300} />
+          <img class={['fadeIn', 'two', !initial.value && 'active']} style={{ bottom: '3rem' }} src="/dino/boden/boden2.svg" height={275} />
+          <img class={['fadeIn', 'one', !initial.value && 'active']} style={{ bottom: '0' }} src="/dino/boden/boden.svg" height={175} />
+          <img class={['fadeIn', 'three', state.value == 1 && 'active']} style={{ bottom: '5rem' }} src="/dino/phase2/boden/boden3.svg" height={300} />
+          <img class={['fadeIn',  'two', state.value == 1 && 'active']} style={{ bottom: '3rem' }} src="/dino/phase2/boden/boden2.svg" height={275} />
+          <img class={['fadeIn', 'one', state.value == 1 && 'active']} style={{ bottom: '0' }} src="/dino/phase2/boden/boden.svg" height={175} />
         </div>
         <div class="bäume">
-          <img class={['popIn', 'one', !initial.value && state.value != 1 && 'active']} style={{ bottom: '17.5rem', left: '15%' }} src="/baum.svg" height={300} />
-          <img class={['popIn', 'two', 'mirror', !initial.value && state.value != 1 && 'active']} style={{ bottom: '21.25rem', left: '75%' }} src="/baum.svg" height={200} />
-          <img class={['popIn', 'two', state.value == 1 && 'active']} style={{ bottom: '17.5rem', left: '20.5%' }} src="/phase2/baumstumpf.svg" width={75} />
+          <img class={['popIn', 'one', !initial.value && state.value != 1 && 'active']} style={{ bottom: '17.5rem', left: '15%' }} src="/dino/baum.svg" height={300} />
+          <img class={['popIn', 'two', 'mirror', !initial.value && state.value != 1 && 'active']} style={{ bottom: '21.25rem', left: '75%' }} src="/dino/baum.svg" height={200} />
+          <img class={['popIn', 'two', state.value == 1 && 'active']} style={{ bottom: '17.5rem', left: '20.5%' }} src="/dino/phase2/baumstumpf.svg" width={75} />
         </div>
         <div class="content">
-          <img class={['special', 'one', !initial.value && state.value == 0 && 'active']} style={{ bottom: '12.5rem', left: '35%' }} src="/t-rex.svg" height={400} />
-          <img class={['special', 'one', state.value == 2 && 'active']} style={{ bottom: '13.25rem', left: '40%' }} src="/phase3/skelett.svg" width={150} />
-          <img class={['special', 'two', state.value == 2 && 'active']} style={{ bottom: '14rem', left: '47.5%' }} src="/phase3/typ.svg" width={250} />
+          <img class={['special', 'one', !initial.value && state.value == 0 && 'active']} style={{ bottom: '12.5rem', left: '35%' }} src="/dino/t-rex.svg" height={400} />
+          <img class={['special', 'one', state.value == 2 && 'active']} style={{ bottom: '13.25rem', left: '40%' }} src="/dino/phase3/skelett.svg" width={150} />
+          <img class={['special', 'two', state.value == 2 && 'active']} style={{ bottom: '14rem', left: '47.5%' }} src="/dino/phase3/typ.svg" width={250} />
         </div>
         <div class="pflanzen">
-          <img class={['rotateIn', 'one', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-2.5rem', left: '25%' }} src="/pflanze/Pflanze.svg" height={300} />
-          <img class={['rotateIn', 'two', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-4rem', left: '47.5%' }} src="/pflanze/Pflanze.svg" height={300} />
-          <img class={['rotateIn', 'one', 'mirror', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-6rem', left: '35%' }} src="/pflanze/Pflanze.svg" height={300} />
-          <img class={['rotateIn', 'three', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-9rem', left: '55%' }} src="/pflanze/Pflanze.svg" height={300} />
-          <img class={['rotateIn', 'two', 'mirror', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-8rem', left: '67.5%' }} src="/pflanze/Pflanze.svg" height={300} />
-          <img class={['rotateIn', 'two', 'mirror', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-10rem', left: '20%' }} src="/pflanze/Pflanze2.svg" height={300} />
-          <img class={['rotateIn', 'three', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-6rem', left: '30%' }} src="/pflanze/Pflanze2.svg" height={300} />
-          <img class={['rotateIn', 'two', 'mirror', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-9rem', left: '42.5%' }} src="/pflanze/Pflanze2.svg" height={300} />
-          <img class={['rotateIn', 'one', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-5rem', left: '60%' }} src="/pflanze/Pflanze2.svg" height={300} />
-          <img class={['rotateIn', 'three', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-7rem', left: '75%' }} src="/pflanze/Pflanze2.svg" height={300} />
+          <img class={['rotateIn', 'one', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-2.5rem', left: '25%' }} src="/dino/pflanze/Pflanze.svg" height={300} />
+          <img class={['rotateIn', 'two', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-4rem', left: '47.5%' }} src="/dino/pflanze/Pflanze.svg" height={300} />
+          <img class={['rotateIn', 'one', 'mirror', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-6rem', left: '35%' }} src="/dino/pflanze/Pflanze.svg" height={300} />
+          <img class={['rotateIn', 'three', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-9rem', left: '55%' }} src="/dino/pflanze/Pflanze.svg" height={300} />
+          <img class={['rotateIn', 'two', 'mirror', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-8rem', left: '67.5%' }} src="/dino/pflanze/Pflanze.svg" height={300} />
+          <img class={['rotateIn', 'two', 'mirror', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-10rem', left: '20%' }} src="/dino/pflanze/Pflanze2.svg" height={300} />
+          <img class={['rotateIn', 'three', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-6rem', left: '30%' }} src="/dino/pflanze/Pflanze2.svg" height={300} />
+          <img class={['rotateIn', 'two', 'mirror', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-9rem', left: '42.5%' }} src="/dino/pflanze/Pflanze2.svg" height={300} />
+          <img class={['rotateIn', 'one', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-5rem', left: '60%' }} src="/dino/pflanze/Pflanze2.svg" height={300} />
+          <img class={['rotateIn', 'three', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-7rem', left: '75%' }} src="/dino/pflanze/Pflanze2.svg" height={300} />
         </div>
         <div class="felsen">
-          <img class={['slideIn', 'two', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-5px', right: '3rem' }} src="/fels/Fels2-rechts.svg" width={400} />
-          <img class={['slideIn', 'one', !initial.value && state.value == 0 && 'active']} style={{ bottom: '0' , right: '-3.5rem'}} src="/fels/Fels-rechts.svg" height={600} />
-          <img class={['slideIn2', 'two', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-5px', left: '3em' }} src="/fels/Fels2-links.svg" width={400} />
-          <img class={['slideIn2', 'one', !initial.value && state.value != 1 && 'active']} style={{ bottom: '0', left: '-6rem' }} src="/fels/Fels-links.svg" width={400} />
+          <img class={['slideIn', 'two', !initial.value && state.value == 0 && 'active']} style={{ bottom: '-5px', right: '3rem' }} src="/dino/fels/Fels2-rechts.svg" width={400} />
+          <img class={['slideIn', 'one', !initial.value && state.value == 0 && 'active']} style={{ bottom: '0' , right: '-3.5rem'}} src="/dino/fels/Fels-rechts.svg" height={600} />
+          <img class={['slideIn2', 'two', !initial.value && state.value != 1 && 'active']} style={{ bottom: '-5px', left: '3em' }} src="/dino/fels/Fels2-links.svg" width={400} />
+          <img class={['slideIn2', 'one', !initial.value && state.value != 1 && 'active']} style={{ bottom: '0', left: '-6rem' }} src="/dino/fels/Fels-links.svg" width={400} />
         </div>
         <div class="bullets">
           <button onClick$={ () => addActive(`phase${state.value + 1}-dino`) }></button>

@@ -4319,7 +4319,7 @@ const s_EvhnljescmY = () => {
           ], [
             initial
           ], '["fadeIn","nine",!p0.value&&"active"]'),
-          src: "/berge/berg4.svg",
+          src: "/dino/berge/berg4.svg",
           style: {
             bottom: "0",
             left: "50%"
@@ -4334,7 +4334,7 @@ const s_EvhnljescmY = () => {
           ], [
             initial
           ], '["fadeIn","eight",!p0.value&&"active"]'),
-          src: "/berge/berg3.svg",
+          src: "/dino/berge/berg3.svg",
           style: {
             bottom: "12.5rem",
             left: "-12.5%"
@@ -4349,7 +4349,7 @@ const s_EvhnljescmY = () => {
           ], [
             initial
           ], '["fadeIn","seven",!p0.value&&"active"]'),
-          src: "/berge/berg2.svg",
+          src: "/dino/berge/berg2.svg",
           style: {
             bottom: "7.5rem",
             left: "-15%"
@@ -4364,7 +4364,7 @@ const s_EvhnljescmY = () => {
           ], [
             initial
           ], '["fadeIn","six",!p0.value&&"active"]'),
-          src: "/berge/berg.svg",
+          src: "/dino/berge/berg.svg",
           style: {
             bottom: "12rem",
             left: "30%"
@@ -4384,7 +4384,7 @@ const s_EvhnljescmY = () => {
             initial
           ], '["fadeIn","five",!p0.value&&"active"]'),
           height: 250,
-          src: "/huegel/huegel2.svg",
+          src: "/dino/huegel/huegel2.svg",
           style: {
             bottom: "11rem"
           }
@@ -4398,7 +4398,7 @@ const s_EvhnljescmY = () => {
             initial
           ], '["fadeIn","four",!p0.value&&"active"]'),
           height: 200,
-          src: "/huegel/huegel.svg",
+          src: "/dino/huegel/huegel.svg",
           style: {
             bottom: "15rem"
           }
@@ -4412,7 +4412,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["fadeIn","five",p0.value==1&&"active"]'),
           height: 250,
-          src: "/phase2/huegel/huegel2.svg",
+          src: "/dino/phase2/huegel/huegel2.svg",
           style: {
             bottom: "11rem"
           }
@@ -4426,7 +4426,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["fadeIn","four",p0.value==1&&"active"]'),
           height: 200,
-          src: "/phase2/huegel/huegel.svg",
+          src: "/dino/phase2/huegel/huegel.svg",
           style: {
             bottom: "15rem"
           }
@@ -4444,7 +4444,7 @@ const s_EvhnljescmY = () => {
             initial
           ], '["fadeIn","three",!p0.value&&"active"]'),
           height: 300,
-          src: "/boden/boden3.svg",
+          src: "/dino/boden/boden3.svg",
           style: {
             bottom: "5rem"
           }
@@ -4458,7 +4458,7 @@ const s_EvhnljescmY = () => {
             initial
           ], '["fadeIn","two",!p0.value&&"active"]'),
           height: 275,
-          src: "/boden/boden2.svg",
+          src: "/dino/boden/boden2.svg",
           style: {
             bottom: "3rem"
           }
@@ -4472,7 +4472,7 @@ const s_EvhnljescmY = () => {
             initial
           ], '["fadeIn","one",!p0.value&&"active"]'),
           height: 175,
-          src: "/boden/boden.svg",
+          src: "/dino/boden/boden.svg",
           style: {
             bottom: "0"
           }
@@ -4486,7 +4486,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["fadeIn","three",p0.value==1&&"active"]'),
           height: 300,
-          src: "/phase2/boden/boden3.svg",
+          src: "/dino/phase2/boden/boden3.svg",
           style: {
             bottom: "5rem"
           }
@@ -4500,7 +4500,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["fadeIn","two",p0.value==1&&"active"]'),
           height: 275,
-          src: "/phase2/boden/boden2.svg",
+          src: "/dino/phase2/boden/boden2.svg",
           style: {
             bottom: "3rem"
           }
@@ -4514,7 +4514,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["fadeIn","one",p0.value==1&&"active"]'),
           height: 175,
-          src: "/phase2/boden/boden.svg",
+          src: "/dino/phase2/boden/boden.svg",
           style: {
             bottom: "0"
           }
@@ -4533,7 +4533,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["popIn","one",!p0.value&&p1.value!=1&&"active"]'),
           height: 300,
-          src: "/baum.svg",
+          src: "/dino/baum.svg",
           style: {
             bottom: "17.5rem",
             left: "15%"
@@ -4550,7 +4550,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["popIn","two","mirror",!p0.value&&p1.value!=1&&"active"]'),
           height: 200,
-          src: "/baum.svg",
+          src: "/dino/baum.svg",
           style: {
             bottom: "21.25rem",
             left: "75%"
@@ -4564,7 +4564,7 @@ const s_EvhnljescmY = () => {
           ], [
             state
           ], '["popIn","two",p0.value==1&&"active"]'),
-          src: "/phase2/baumstumpf.svg",
+          src: "/dino/phase2/baumstumpf.svg",
           style: {
             bottom: "17.5rem",
             left: "20.5%"
@@ -4585,7 +4585,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["special","one",!p0.value&&p1.value==0&&"active"]'),
           height: 400,
-          src: "/t-rex.svg",
+          src: "/dino/t-rex.svg",
           style: {
             bottom: "12.5rem",
             left: "35%"
@@ -4599,7 +4599,7 @@ const s_EvhnljescmY = () => {
           ], [
             state
           ], '["special","one",p0.value==2&&"active"]'),
-          src: "/phase3/skelett.svg",
+          src: "/dino/phase3/skelett.svg",
           style: {
             bottom: "13.25rem",
             left: "40%"
@@ -4614,7 +4614,7 @@ const s_EvhnljescmY = () => {
           ], [
             state
           ], '["special","two",p0.value==2&&"active"]'),
-          src: "/phase3/typ.svg",
+          src: "/dino/phase3/typ.svg",
           style: {
             bottom: "14rem",
             left: "47.5%"
@@ -4635,7 +4635,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","one",!p0.value&&p1.value!=1&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze.svg",
+          src: "/dino/pflanze/Pflanze.svg",
           style: {
             bottom: "-2.5rem",
             left: "25%"
@@ -4651,7 +4651,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","two",!p0.value&&p1.value!=1&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze.svg",
+          src: "/dino/pflanze/Pflanze.svg",
           style: {
             bottom: "-4rem",
             left: "47.5%"
@@ -4668,7 +4668,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","one","mirror",!p0.value&&p1.value!=1&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze.svg",
+          src: "/dino/pflanze/Pflanze.svg",
           style: {
             bottom: "-6rem",
             left: "35%"
@@ -4684,7 +4684,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","three",!p0.value&&p1.value!=1&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze.svg",
+          src: "/dino/pflanze/Pflanze.svg",
           style: {
             bottom: "-9rem",
             left: "55%"
@@ -4701,7 +4701,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","two","mirror",!p0.value&&p1.value!=1&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze.svg",
+          src: "/dino/pflanze/Pflanze.svg",
           style: {
             bottom: "-8rem",
             left: "67.5%"
@@ -4718,7 +4718,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","two","mirror",!p0.value&&p1.value==0&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze2.svg",
+          src: "/dino/pflanze/Pflanze2.svg",
           style: {
             bottom: "-10rem",
             left: "20%"
@@ -4734,7 +4734,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","three",!p0.value&&p1.value==0&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze2.svg",
+          src: "/dino/pflanze/Pflanze2.svg",
           style: {
             bottom: "-6rem",
             left: "30%"
@@ -4751,7 +4751,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","two","mirror",!p0.value&&p1.value==0&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze2.svg",
+          src: "/dino/pflanze/Pflanze2.svg",
           style: {
             bottom: "-9rem",
             left: "42.5%"
@@ -4767,7 +4767,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","one",!p0.value&&p1.value==0&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze2.svg",
+          src: "/dino/pflanze/Pflanze2.svg",
           style: {
             bottom: "-5rem",
             left: "60%"
@@ -4783,7 +4783,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["rotateIn","three",!p0.value&&p1.value==0&&"active"]'),
           height: 300,
-          src: "/pflanze/Pflanze2.svg",
+          src: "/dino/pflanze/Pflanze2.svg",
           style: {
             bottom: "-7rem",
             left: "75%"
@@ -4802,7 +4802,7 @@ const s_EvhnljescmY = () => {
             initial,
             state
           ], '["slideIn","two",!p0.value&&p1.value==0&&"active"]'),
-          src: "/fels/Fels2-rechts.svg",
+          src: "/dino/fels/Fels2-rechts.svg",
           style: {
             bottom: "-5px",
             right: "3rem"
@@ -4819,7 +4819,7 @@ const s_EvhnljescmY = () => {
             state
           ], '["slideIn","one",!p0.value&&p1.value==0&&"active"]'),
           height: 600,
-          src: "/fels/Fels-rechts.svg",
+          src: "/dino/fels/Fels-rechts.svg",
           style: {
             bottom: "0",
             right: "-3.5rem"
@@ -4834,7 +4834,7 @@ const s_EvhnljescmY = () => {
             initial,
             state
           ], '["slideIn2","two",!p0.value&&p1.value!=1&&"active"]'),
-          src: "/fels/Fels2-links.svg",
+          src: "/dino/fels/Fels2-links.svg",
           style: {
             bottom: "-5px",
             left: "3em"
@@ -4850,7 +4850,7 @@ const s_EvhnljescmY = () => {
             initial,
             state
           ], '["slideIn2","one",!p0.value&&p1.value!=1&&"active"]'),
-          src: "/fels/Fels-links.svg",
+          src: "/dino/fels/Fels-links.svg",
           style: {
             bottom: "0",
             left: "-6rem"
@@ -5129,7 +5129,7 @@ const serverPlugins = [];
 const Layout = () => Layout_;
 const routes = [
   ["/", [Layout, () => IndexRoute], "/", ["q-63b029ee.js", "q-5e4ebac7.js"]],
-  ["dino/", [Layout, () => DinoRoute], "/dino/", ["q-63b029ee.js", "q-be1cf048.js"]]
+  ["dino/", [Layout, () => DinoRoute], "/dino/", ["q-63b029ee.js", "q-0416ada4.js"]]
 ];
 const menus = [];
 const trailingSlash = true;
