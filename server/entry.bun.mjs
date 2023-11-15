@@ -1,7 +1,7 @@
 import { getNotFound } from "./@qwik-city-not-found-paths.js";
 import { isStaticPath } from "./@qwik-city-static-paths.js";
-import { _ as _deserializeData, a as _serializeData, v as verifySerializable$1, q as qwikCityPlan } from "./assets/@qwik-city-plan-4bbe5f36.mjs";
-import { s as setServerPlatform2, r as render, m as manifest } from "./assets/entry.ssr-9e395836.mjs";
+import { _ as _deserializeData, a as _serializeData, v as verifySerializable$1, q as qwikCityPlan } from "./assets/@qwik-city-plan-0bdf6ac5.mjs";
+import { s as setServerPlatform2, r as render, m as manifest } from "./assets/entry.ssr-041e7b7e.mjs";
 import { join, extname } from "path";
 var ErrorResponse = class extends Error {
   constructor(status, message) {

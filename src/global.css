@@ -39,8 +39,7 @@ html {
 main {
   padding: 0;
   max-width: 1920px;
-  aspect-ratio: 1;
-  height: 100vh;
+  max-height: 100vh;
   line-height: inherit;
   overflow: hidden;
   transition: background-color 2s;

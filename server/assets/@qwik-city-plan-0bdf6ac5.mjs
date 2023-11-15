@@ -4229,22 +4229,42 @@ const Layout_ = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePrope
   default: layout,
   onGet
 }, Symbol.toStringTag, { value: "Module" }));
-const s_15DH200gqJQ = (id) => {
+const s_B0lqk5IDDy4 = () => {
+  return /* @__PURE__ */ _jsxC(Fragment, {
+    children: " "
+  }, 3, "i8_0");
+};
+const index$1 = /* @__PURE__ */ componentQrl(/* @__PURE__ */ inlinedQrl(s_B0lqk5IDDy4, "s_B0lqk5IDDy4"));
+const head = {
+  title: "Welcome to Qwik",
+  meta: [
+    {
+      name: "description",
+      content: "Qwik site description"
+    }
+  ]
+};
+const IndexRoute = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  default: index$1,
+  head
+}, Symbol.toStringTag, { value: "Module" }));
+const s_Gz9RiLpycys = (id) => {
   var _a2, _b;
   (_a2 = document.getElementById("ovrly")) == null ? void 0 : _a2.classList.add("active");
   (_b = document.getElementById(id)) == null ? void 0 : _b.classList.add("active");
 };
-const s_nRePDq0RdyQ = () => {
+const s_3Z8e0aOi7lg = () => {
   var _a2;
   (_a2 = document.getElementById("ovrly")) == null ? void 0 : _a2.classList.remove("active");
   document.getElementsByClassName("popup")[0].getElementsByClassName("active")[0].classList.remove("active");
 };
-const s_B0lqk5IDDy4 = () => {
+const s_EvhnljescmY = () => {
   const state = useSignal(0);
   const initial = useSignal(true);
-  const addActive = /* @__PURE__ */ inlinedQrl(s_15DH200gqJQ, "s_15DH200gqJQ");
-  const removeActive = /* @__PURE__ */ inlinedQrl(s_nRePDq0RdyQ, "s_nRePDq0RdyQ");
-  useVisibleTaskQrl(/* @__PURE__ */ _noopQrl("s_hs55Cc65pvA", [
+  const addActive = /* @__PURE__ */ inlinedQrl(s_Gz9RiLpycys, "s_Gz9RiLpycys");
+  const removeActive = /* @__PURE__ */ inlinedQrl(s_3Z8e0aOi7lg, "s_3Z8e0aOi7lg");
+  useVisibleTaskQrl(/* @__PURE__ */ _noopQrl("s_SLPfbhA7aGE", [
     initial
   ]));
   return /* @__PURE__ */ _jsxQ("main", null, {
@@ -4264,7 +4284,7 @@ const s_B0lqk5IDDy4 = () => {
         class: _fnSignal((p0) => p0.value == 0 && "active", [
           state
         ], 'p0.value==0&&"active"'),
-        onClick$: /* @__PURE__ */ _noopQrl("s_RffbUUm6c50", [
+        onClick$: /* @__PURE__ */ _noopQrl("s_CvwfWi6zZtY", [
           state
         ])
       }, "Erdmittelalter", 3, null),
@@ -4272,7 +4292,7 @@ const s_B0lqk5IDDy4 = () => {
         class: _fnSignal((p0) => p0.value == 1 && "active", [
           state
         ], 'p0.value==1&&"active"'),
-        onClick$: /* @__PURE__ */ _noopQrl("s_I4cOxm0hflI", [
+        onClick$: /* @__PURE__ */ _noopQrl("s_EKpQx60wrSU", [
           state
         ])
       }, "Aussterben", 3, null),
@@ -4280,7 +4300,7 @@ const s_B0lqk5IDDy4 = () => {
         class: _fnSignal((p0) => p0.value == 2 && "active", [
           state
         ], 'p0.value==2&&"active"'),
-        onClick$: /* @__PURE__ */ _noopQrl("s_eI5q6zNB8RI", [
+        onClick$: /* @__PURE__ */ _noopQrl("s_FzoS1B9lehM", [
           state
         ])
       }, "Heute", 3, null)
@@ -4842,19 +4862,19 @@ const s_B0lqk5IDDy4 = () => {
         class: "bullets"
       }, [
         /* @__PURE__ */ _jsxQ("button", null, {
-          onClick$: /* @__PURE__ */ _noopQrl("s_D60E5No6m8w", [
+          onClick$: /* @__PURE__ */ _noopQrl("s_PBnJ0qdKhS4", [
             addActive,
             state
           ])
         }, null, 3, null),
         /* @__PURE__ */ _jsxQ("button", null, {
-          onClick$: /* @__PURE__ */ _noopQrl("s_KWgP5ISry10", [
+          onClick$: /* @__PURE__ */ _noopQrl("s_7tVJE0SOs0M", [
             addActive,
             state
           ])
         }, null, 3, null),
         /* @__PURE__ */ _jsxQ("button", null, {
-          onClick$: /* @__PURE__ */ _noopQrl("s_bBhokwGfcwI", [
+          onClick$: /* @__PURE__ */ _noopQrl("s_OajZP0bdn9c", [
             addActive,
             state
           ])
@@ -5098,27 +5118,18 @@ const s_B0lqk5IDDy4 = () => {
         }, /* @__PURE__ */ _jsxQ("p", null, null, "Heutzutage haben sich die Flora und Fauna wieder erholt und es sind viele verschiedene Ökosysteme auf den gesamten Planeten entstanden.", 3, null), 3, null)
       ], 3, null)
     ], 3, null)
-  ], 3, "i8_0");
+  ], 3, "sm_0");
 };
-const index = /* @__PURE__ */ componentQrl(/* @__PURE__ */ inlinedQrl(s_B0lqk5IDDy4, "s_B0lqk5IDDy4"));
-const head = {
-  title: "Welcome to Qwik",
-  meta: [
-    {
-      name: "description",
-      content: "Qwik site description"
-    }
-  ]
-};
-const IndexRoute = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+const index = /* @__PURE__ */ componentQrl(/* @__PURE__ */ inlinedQrl(s_EvhnljescmY, "s_EvhnljescmY"));
+const DinoRoute = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  default: index,
-  head
+  default: index
 }, Symbol.toStringTag, { value: "Module" }));
 const serverPlugins = [];
 const Layout = () => Layout_;
 const routes = [
-  ["/", [Layout, () => IndexRoute], "/", ["q-16e656b6.js", "q-19f2ddc3.js"]]
+  ["/", [Layout, () => IndexRoute], "/", ["q-63b029ee.js", "q-5e4ebac7.js"]],
+  ["dino/", [Layout, () => DinoRoute], "/dino/", ["q-63b029ee.js", "q-be1cf048.js"]]
 ];
 const menus = [];
 const trailingSlash = true;
